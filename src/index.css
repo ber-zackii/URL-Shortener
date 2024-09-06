@@ -1,0 +1,58 @@
+/* Container Styling */
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Field Styling */
+.url-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button Styling */
+.shorten-btn, .copy-btn {
+  padding: 12px 24px;
+  margin: 10px;
+  background-color: #1ABC9C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Button Hover Effects */
+.shorten-btn:hover, .copy-btn:hover {
+  background-color: #16A085;
+  transform: scale(1.02);
+}
+
+/* Result Styling */
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Error Styling */
+.error {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-top: 10px;
+}
